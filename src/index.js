@@ -19,6 +19,9 @@ import {
   NETWORKS_BY_CHAIN_ID,
 } from './onchain-sample-contracts';
 import { getPermissionsDisplayString, stringifiableToHex } from './utils';
+import  {initAbstractionWallet} from "@abstraction-hq/wallet-sdk"
+
+initAbstractionWallet()
 
 const {
   hstBytecode,
